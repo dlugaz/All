@@ -1,0 +1,34 @@
+
+**** Build of configuration Release for project uart_demo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=fpalib --abi=eabi -me -Ooff --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common" -g --gcc --define=ccs --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../pinmux.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=fpalib --abi=eabi -me -Ooff --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common" -g --gcc --define=ccs --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full --preproc_with_compile --preproc_dependency="pinmux.pp"  "../pinmux.c"
+'Finished building: ../pinmux.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/startup_ccs.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=fpalib --abi=eabi -me -Ooff --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common" -g --gcc --define=ccs --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full --preproc_with_compile --preproc_dependency="startup_ccs.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/startup_ccs.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/startup_ccs.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/uart_if.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=fpalib --abi=eabi -me -Ooff --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common" -g --gcc --define=ccs --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full --preproc_with_compile --preproc_dependency="uart_if.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/uart_if.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/uart_if.c'
+' '
+'Building target: uart_demo.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=fpalib --abi=eabi -me -Ooff -g --gcc --define=ccs --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -z -m"uart_demo.map" --heap_size=0x800 --stack_size=0x100 -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="uart_demo_linkInfo.xml" --rom_model -o "uart_demo.out" "./main.obj" "./pinmux.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"libc.a" -l"C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/uart_demo/ccs/../../../driverlib/ccs/Release/driverlib.a" 
+<Linking>
+'Finished building target: uart_demo.out'
+' '
+"C:/ti/ccsv6/utils/tiobj2bin/tiobj2bin" "uart_demo.out" "uart_demo.bin" "C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armofd" "C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armhex" "C:/ti/ccsv6/utils/tiobj2bin/mkhex4bin"
+' '
+
+**** Build Finished ****

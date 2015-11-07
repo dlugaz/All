@@ -1,0 +1,1 @@
+"./main.obj" "./startup_ccs.obj" "./udma_if.obj" "../bootmgr.cmd" -l"libc.a" -lsimplelink_opt.a -ldriverlib.a 

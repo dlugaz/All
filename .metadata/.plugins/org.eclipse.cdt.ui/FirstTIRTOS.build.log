@@ -1,0 +1,59 @@
+
+**** Build of configuration Debug for project FirstTIRTOS ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+making ../src/sysbios/sysbios.aem4 ...
+gmake[1]: Entering directory `C:/Users/kdluzynski/workspace_v6_1/FirstTIRTOS/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/Users/kdluzynski/workspace_v6_1/FirstTIRTOS/src/sysbios'
+'Building file: ../CC3200_LP.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common" --include_path="C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0" --include_path="C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0/inc" --include_path="C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0/driverlib" -g --define=cc3200 --define=PART_CC3200 --define=ccs --define=CCWARE --display_error_number --diag_warning=225 --diag_warning=255 --diag_wrap=off --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC3200_LP.pp" --cmd_file="./configPkg/compiler.opt"  "../CC3200_LP.c"
+"../CC3200_LP.c", line 58: fatal error #1965: cannot open source file "pin_mux_config.h"
+1 catastrophic error detected in the compilation of "../CC3200_LP.c".
+
+Compilation terminated.
+>> Compilation failure
+gmake: *** [CC3200_LP.obj] Error 1
+'Building file: ../empty.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common" --include_path="C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0" --include_path="C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0/inc" --include_path="C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0/driverlib" -g --define=cc3200 --define=PART_CC3200 --define=ccs --define=CCWARE --display_error_number --diag_warning=225 --diag_warning=255 --diag_wrap=off --gen_func_subsections=on --preproc_with_compile --preproc_dependency="empty.pp" --cmd_file="./configPkg/compiler.opt"  "../empty.c"
+"../empty.c", line 120: warning #112-D: statement is unreachable
+"../empty.c", line 94: warning #179-D: variable "config" was declared but never referenced
+'Finished building: ../empty.c'
+' '
+'Building file: ../empty_rom_pin_mux_config.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common" --include_path="C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0" --include_path="C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0/inc" --include_path="C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0/driverlib" -g --define=cc3200 --define=PART_CC3200 --define=ccs --define=CCWARE --display_error_number --diag_warning=225 --diag_warning=255 --diag_wrap=off --gen_func_subsections=on --preproc_with_compile --preproc_dependency="empty_rom_pin_mux_config.pp" --cmd_file="./configPkg/compiler.opt"  "../empty_rom_pin_mux_config.c"
+"../empty_rom_pin_mux_config.c", line 45: fatal error #1965: cannot open source file "pin_mux_config.h"
+1 catastrophic error detected in the compilation of "../empty_rom_pin_mux_config.c".
+
+>> Compilation failure
+Compilation terminated.
+gmake: *** [empty_rom_pin_mux_config.obj] Error 1
+'Building file: ../empty.cfg'
+'Invoking: XDCtools'
+"C:/ti/xdctools_3_31_01_33_core/xs" --xdcpath="C:/ti/tirtos_simplelink_2_13_01_09/packages;C:/ti/tirtos_simplelink_2_13_01_09/products/bios_6_42_00_08/packages;C:/ti/tirtos_simplelink_2_13_01_09/products/uia_2_00_02_39/packages;C:/ti/ccsv6/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.arm.elf.M4 -p ti.platforms.simplelink:CC3200 -r release -c "C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2" --compileOptions "-mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path=\"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include\" --include_path=\"C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common\" --include_path=\"C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0\" --include_path=\"C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0/inc\" --include_path=\"C:/ti/tirtos_simplelink_2_13_01_09/products/CC3200_driverlib_1.1.0/driverlib\" -g --define=cc3200 --define=PART_CC3200 --define=ccs --define=CCWARE --display_error_number --diag_warning=225 --diag_warning=255 --diag_wrap=off --gen_func_subsections=on  " "../empty.cfg"
+making package.mak (because of config.bld) ...
+configuring empty.xem4 from package/cfg/empty_pem4.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/Users/kdluzynski/workspace_v6_1/FirstTIRTOS/src/sysbios/sysbios.aem4 ...
+gmake[1]: Entering directory `C:/Users/kdluzynski/workspace_v6_1/FirstTIRTOS/src/sysbios'
+clem4 C:/ti/tirtos_simplelink_2_13_01_09/products/bios_6_42_00_08/packages/ti/sysbios/BIOS.c ...
+gmake.exe: *** Deleting file `package/cfg/empty_pem4.xdl'
+gmake.exe: *** [package/cfg/empty_pem4.xdl] Deleting file `package/cfg/empty_pem4.h'
+gmake.exe: *** [package/cfg/empty_pem4.xdl] Deleting file `package/cfg/empty_pem4.c'
+[C:\ti\ccsv6\tools\compiler\ti-cgt-arm_5.2.2\bin\armopt.exe forced exit]
+[C:\ti\ccsv6\tools\compiler\ti-cgt-arm_5.2.2\bin\armcl.exe forced exit]
+Terminate batch job (Y/N)? 
+gmake: *** [configPkg/linker.cmd] Error 130
+
+**** Build of configuration Debug for project FirstTIRTOS ****
+
+!CommandLauncher.error.commandCanceled!
+Error: Program "C:/ti/ccsv6/utils/bin/gmake" is not found in PATH
+
+PATH=[C:\ti\ccsv6\ccs_base\common\bin;C:\ti\ccsv6\ccs_base\common\uscif;C:\ti\ccsv6\ccs_base\DebugServer\license;C:/ti/ccsv6/eclipse/jre/bin/client;C:/ti/ccsv6/eclipse/jre/bin;C:/ti/ccsv6/eclipse/jre/lib/i386;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\MATLAB\MATLAB Component Runtime\v77\runtime\win32;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\OMB\Zend\ZendServer\share\ZendFramework\bin;C:\Program Files (x86)\OMB\Zend\ZendServer\bin;C:\Program Files (x86)\Rosemount\RRM\lib;;C:\ti\ccsv6\eclipse;]
+
+**** Build Finished ****

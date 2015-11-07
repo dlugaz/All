@@ -1,0 +1,1 @@
+"./camera_app.obj" "./httpserverapp.obj" "./i2cconfig.obj" "./main.obj" "./mt9d111.obj" "./network_if.obj" "./pinmux.obj" "./startup_ccs.obj" "./udma_if.obj" "../cc3200v1p32.cmd" -l"libc.a" -ldriverlib.a -lfree_rtos.a -lwebserver.a -lsimplelink.a 

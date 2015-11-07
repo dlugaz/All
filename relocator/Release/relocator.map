@@ -1,0 +1,78 @@
+******************************************************************************
+                  TI ARM Linker PC v5.2.2                      
+******************************************************************************
+>> Linked Fri Jun 19 18:58:05 2015
+
+OUTPUT FILE NAME:   <relocator.out>
+ENTRY POINT SYMBOL: "ResetISR"  address: 20004037
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  SRAM_CODE             20004000   00012fff  0000003a  00012fc5  RW X
+  SRAM_DATA             20017000   00019000  00000010  00018ff0  RW X
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+20004000    20004000    0000003a   0000003a    r-x
+  20004000    20004000    00000008   00000008    r-- .intvecs
+  20004008    20004008    00000032   00000032    r-x .text
+20017000    20017000    00000010   00000000    rw-
+  20017000    20017000    00000010   00000000    rw- .noinit
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    20004000    00000008     
+                  20004000    00000008     startup_ccs.obj (.intvecs)
+
+.init_array 
+*          0    20004000    00000000     UNINITIALIZED
+
+.text      0    20004008    00000032     
+                  20004008    00000022     main.obj (.text:main)
+                  2000402a    0000000c     main.obj (.text:RunRelocated)
+                  20004036    00000004     startup_ccs.obj (.text:ResetISR)
+
+.cinit     0    20004000    00000000     UNINITIALIZED
+
+.noinit    0    20017000    00000010     UNINITIALIZED
+                  20017000    00000010     startup_ccs.obj (.noinit)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address   name              
+-------   ----              
+20004037  ResetISR          
+2000402b  RunRelocated      
+20004000  __TI_static_base__
+ffffffff  __binit__         
+ffffffff  __c_args__        
+ffffffff  binit             
+20004000  g_pfnVectors      
+20004009  main              
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address   name              
+-------   ----              
+20004000  __TI_static_base__
+20004000  g_pfnVectors      
+20004009  main              
+2000402b  RunRelocated      
+20004037  ResetISR          
+ffffffff  __binit__         
+ffffffff  __c_args__        
+ffffffff  binit             
+
+[8 symbols]

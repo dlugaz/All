@@ -1,0 +1,1 @@
+"./button_if.obj" "./main.obj" "./net.obj" "./pinmux.obj" "./uart_if.obj" "./udma_if.obj" "../cc3200v1p32.cmd" -l"libc.a" -lti_rtos.a -lsimplelink.a -ldriverlib.a -lflc.a -lota.a 

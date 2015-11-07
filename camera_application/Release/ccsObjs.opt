@@ -1,0 +1,1 @@
+"./camera_app.obj" "./i2cconfig.obj" "./main.obj" "./mt9d111.obj" "./pinmux.obj" "./startup_ccs.obj" "./uart_if.obj" "./udma_if.obj" "../cc3200v1p32.cmd" -l"driverlib.a" -l"libc.a" -lsimplelink.a -lfree_rtos.a 

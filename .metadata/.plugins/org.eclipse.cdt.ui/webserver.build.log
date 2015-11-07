@@ -1,0 +1,68 @@
+
+**** Build of configuration Release for project webserver ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpAuth.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=__CCS__ --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="HttpAuth.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpAuth.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpAuth.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpCore.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=__CCS__ --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="HttpCore.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpCore.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpCore.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpDebug.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=__CCS__ --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="HttpDebug.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpDebug.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpDebug.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpDynamic.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=__CCS__ --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="HttpDynamic.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpDynamic.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpDynamic.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpSocket.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=__CCS__ --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="HttpSocket.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpSocket.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpSocket.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpStatic.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=__CCS__ --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="HttpStatic.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpStatic.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpStatic.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpString.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=__CCS__ --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="HttpString.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpString.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/HttpString.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/WebSockHandler.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=__CCS__ --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="WebSockHandler.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/WebSockHandler.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/WebSockHandler.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/base64.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=__CCS__ --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="base64.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/base64.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/base64.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/sha1.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=__CCS__ --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="sha1.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/sha1.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/sha1.c'
+' '
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/strlib.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=__CCS__ --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="strlib.pp"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/strlib.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/http/server/strlib.c'
+' '
+'Building target: webserver.a'
+'Invoking: ARM Archiver'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armar" r "webserver.a" "./HttpAuth.obj" "./HttpCore.obj" "./HttpDebug.obj" "./HttpDynamic.obj" "./HttpSocket.obj" "./HttpStatic.obj" "./HttpString.obj" "./WebSockHandler.obj" "./base64.obj" "./sha1.obj" "./strlib.obj"  
+  ==>  new archive 'webserver.a'
+  ==>  building archive 'webserver.a'
+'Finished building target: webserver.a'
+' '
+
+**** Build Finished ****

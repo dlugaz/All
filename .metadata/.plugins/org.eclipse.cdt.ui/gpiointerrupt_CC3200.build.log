@@ -1,0 +1,10 @@
+
+**** Build of configuration Debug for project gpiointerrupt_CC3200 ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+making ../src/sysbios/sysbios.aem4 ...
+gmake[1]: Entering directory `C:/Users/kdluzynski/workspace_v6_1/gpiointerrupt_CC3200/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/Users/kdluzynski/workspace_v6_1/gpiointerrupt_CC3200/src/sysbios'
+
+**** Build Finished ****

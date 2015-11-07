@@ -1,0 +1,1 @@
+"./button_if.obj" "./gpio_if.obj" "./i2c_if.obj" "./i2s_if.obj" "./main.obj" "./network_if.obj" "./startup_ccs.obj" "./startup_ewarm.obj" "./startup_gcc.obj" "./timer_if.obj" "./uart_if.obj" "./udma_if.obj" "./utils_if.obj" "./wdt_if.obj" "../cc3200v1p32.cmd" -l"libc.a" 

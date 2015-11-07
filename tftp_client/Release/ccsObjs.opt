@@ -1,0 +1,1 @@
+"./main.obj" "./network_if.obj" "./pinmux.obj" "./startup_ccs.obj" "./uart_if.obj" "./udma_if.obj" "../cc3200v1p32.cmd" -l"libc.a" -lsimplelink.a -ltftplib.a -lfree_rtos.a -ldriverlib.a 

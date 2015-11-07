@@ -1,0 +1,30 @@
+
+**** Build of configuration Release for project xmpp_client ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/gpio_if.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/xmpp/client" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=USE_TIRTOS --define=__CCS__ --define=ccs --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="gpio_if.pp" --cmd_file="C:/Users/kdluzynski/workspace_v6_1/ti_rtos_config/Default/configPkg/compiler.opt"  "C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/gpio_if.c"
+'Finished building: C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common/gpio_if.c'
+' '
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/xmpp/client" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=USE_TIRTOS --define=__CCS__ --define=ccs --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="main.pp" --cmd_file="C:/Users/kdluzynski/workspace_v6_1/ti_rtos_config/Default/configPkg/compiler.opt"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../pinmux.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/oslib" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/netapps/xmpp/client" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/common" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/include" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/simplelink/source" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/inc" --include_path="C:/ti/CC3200SDK_1.1.0/cc3200-sdk/driverlib" -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=USE_TIRTOS --define=__CCS__ --define=ccs --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="pinmux.pp" --cmd_file="C:/Users/kdluzynski/workspace_v6_1/ti_rtos_config/Default/configPkg/compiler.opt"  "../pinmux.c"
+'Finished building: ../pinmux.c'
+' '
+'Building target: xmpp_client.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=vfplib --abi=eabi -me -g --gcc --define=SL_PLATFORM_MULTI_THREADED --define=NOTERM --define=USE_TIRTOS --define=__CCS__ --define=ccs --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off -z -m"xmpp_client.map" --heap_size=0x8000 --stack_size=0x2000 -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="xmpp_client_linkInfo.xml" --rom_model -l"C:/Users/kdluzynski/workspace_v6_1/ti_rtos_config/Default/configPkg/linker.cmd" -o "xmpp_client.out" "./gpio_if.obj" "./main.obj" "./pinmux.obj" "../cc3200v1p32.cmd"  -l"libc.a" -l"C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/xmpp_client/ccs/../../../oslib/ccs/ti_rtos/ti_rtos.a" -l"C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/xmpp_client/ccs/../../../netapps/xmpp/client/ccs/Release/libXmpp.a" -l"C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/xmpp_client/ccs/../../../driverlib/ccs/Release/driverlib.a" -l"C:/ti/CC3200SDK_1.1.0/cc3200-sdk/example/xmpp_client/ccs/../../../simplelink/ccs/OS/simplelink.a" 
+<Linking>
+'Finished building target: xmpp_client.out'
+' '
+'Converting to bin file'
+"C:/ti/ccsv6/utils/tiobj2bin/tiobj2bin" "xmpp_client.out" "xmpp_client.bin" "C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armofd" "C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armhex" "C:/ti/ccsv6/utils/tiobj2bin/mkhex4bin"
+' '
+
+**** Build Finished ****
